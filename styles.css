@@ -8,7 +8,35 @@
 }
 
 /* =============START INTRO============== */
+@media screen and (max-width: 989px){
+    #banner{
+        /* display:block;
+        margin-left: auto; */
+    margin-top: 100px;
+        margin-left: 220px;
+    }
 
+}
+
+@media screen and (max-width: 445px){
+    #banner{
+        /* display:block;
+        margin-left: auto; */
+    margin-top: 140px;
+        margin-left: 75px;
+    }
+
+}
+
+@media screen and (max-width:980px){
+    #query-for-intro-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+}
 .intro{
     padding-top: 10%;
     /* height: 30vh;
@@ -23,6 +51,11 @@
 #cv{
     margin-right: 1rem;
    
+}
+
+#banner{
+    width: 800px;
+    height: 800px;
 }
 
 #buttons-intro{
@@ -76,16 +109,17 @@ h3::after{
     width: 50px;
 }
 #who{
-    font-size: 5rem;
+    font-size: 7rem;
     font-weight: 900;
 }
 
 #what{
-    font-size: 3rem;
+    font-size: 4.5rem;
     /* font-weight: 700; */
 }
 #hello{
-    font-size: 3rem;
+    font-size: 4.5rem;
+    padding-top: 10%;
     /* font-weight: 700; */
 }
 /* =======================END INTRO====================== */
@@ -95,12 +129,21 @@ h3::after{
 
 
 /* ===============START ABOUT=============== */
+
+@media screen and (max-width: 988px){
+    #about-picture{
+        width: 100%;
+    }
+}
+
 #start-about{
     margin-top: 12%
 }
 
 #about-picture{
-    height: 60vh;
+    /* height: 60vh; */
+    height: 55vh;
+    width: 40%;
     background-image: url("https://www.crushpixel.com/big-static16/preview4/couple-roasting-marshmallow-on-beach-2368151.jpg");
     background-size: cover;
 }
@@ -129,10 +172,13 @@ h3::after{
 }
 
 .card{
-    width: 12rem;
+    width: 18rem;
     margin: 5px;
 box-shadow: .5px .5px .5px .5px;
+justify-content: center;
+align-items: center;
 }
+
 .card-title{
     margin-top: 10px;
     font-size: 24px;
